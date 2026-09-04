@@ -1,12 +1,5 @@
 import streamlit as st
 # Add a selectbox to the sidebar:
-add_selectbox = st.sidebar.selectbox(
-    'How would you like to be contacted?',
-    ('Email', 'Home phone', 'Mobile phone')
-)
-
-# Add a slider to the sidebar:
-add_slider = st.sidebar.slider(
-    'Select a range of values',
-    0.0, 100.0, (25.0, 75.0)
-)
+add_button = st.sidebar.button("What", key="what")
+add_button = st.sidebar.button("The", key="the")
+add_button = st.sidebar.button("Fuck", key="fuck")
